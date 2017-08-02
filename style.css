@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.navbar-transparent {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-family: "Nunito";
+  font-size: 16px;
+  color: #fff !important;
+}
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+    font-family: "Nunito";
+    background: #6AB4CC !important;
+    border-color: #6AB4CC !important;
+  }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+a:hover {
+  color: #f2f09d !important;
+}
+
+p {
+  font-family: "Nunito";
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+.intro-section {
+  font-family: "Nunito";
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #6AB4CC;
+}
+
+.cory {
+  padding-top: -100px;
+}
+.houses {
+  padding-top: 100px;
+}
+
+.about-section {
+  background: #f69670;
+  font-family: "Nunito";
+  height: 100%;
+  padding-top: 100px;
+  text-align: center;
+}
+.services-section {
+  font-family: "Nunito";
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #f4d270;
+}
+.contact-section {
+  font-family: "Nunito";
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #13a979;
+}
+.btn {
+  background-color: #62aac1;
+  border-color: #62aac1;
+  color: #fff;
+}
