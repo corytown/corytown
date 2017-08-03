@@ -13,7 +13,7 @@ $(window).scroll(function() {
     }
 });
 
-//jQuery for page scrolling feature 
+//jQuery for page scrolling feature
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -35,8 +35,3 @@ $(window).scroll(function() {
       $(".navbar-fixed-top").addClass("navbar-transparent");
     }
 });
-//www.123contactform.com script begins here
-<script type="text/javascript" defer src="//www.123contactform.com/embed/2875538.js" data-role="form" data-default-width="650px"></script>
-<p>Powered by <a class="footerLink13" title="123ContactForm" href="http://www.123contactform.com">123ContactForm</a> | <a style="font-size:small!important;color:#000000!important; text-decoration:underline!important;" title="Looks like phishing? Report it!" href="http://www.123contactform.com/sfnew.php?s=123contactform-52&control119314=http:///contact-form--2875538.html&control190=Report%20abuse" rel="nofollow">Report abuse</a></p>
-//www.123contactform.com script ends here 
-
