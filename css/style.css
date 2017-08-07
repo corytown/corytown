@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:900|Gorditas:700');
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   width: 100%;
   /*height: 100%;*/
@@ -8,6 +12,13 @@ body {
 html {
   width: 100%;
   /*height: 100%;*/
+}
+span {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  bottom: 45px;
+  line-height: 150%
 }
 .navbar-transparent {
   background-color: transparent;
@@ -63,7 +74,13 @@ h1 {
   color: #fff !important;
   text-align: center;
 }
-
+.creditslist {
+  font-family: "Nunito";
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+}
 .intro-section {
   font-family: "Nunito";
   height: 100%;
@@ -90,7 +107,6 @@ h1 {
   font-family: "Nunito";
   height: 100%;
   padding-top: 100px;
-  padding-bottom: 100px;
   text-align: justify;
   background: #FFC757;
 }
@@ -102,13 +118,28 @@ h1 {
   background: #13a979;
   padding-bottom: 100px;
 }
+.credits-section {
+  font-family: "Nunito";
+  height: 100%;
+  padding-top: 100px;
+  text-align: justify;
+  background: #cab1d6;
+  padding-bottom: 100px;
+}
 .btn {
   background-color: #62aac1;
   border-color: #62aac1;
   color: #fff;
+
 }
 .btn-default:hover {
   background-color: #48a3aa !important;
   border-color: #48a3aa !important;
   color: #fff !important;
+}
+.icons{
+  text-align: justify;
+  font-size: 18px;
+  color: white;
+  list-style: none;
 }
